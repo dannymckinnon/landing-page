@@ -12,13 +12,96 @@ body {
 .hero {
   background-color: #1F2937;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
+  margin: 25px 245px 100px;
+  flex-grow: 1;
 }
 
-.header li {
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
   list-style-type: none;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 100px;
+}
+
+.hero-img img {
+  width: 550px;
+  height: 230px;  
+}
+
+.hero-text {
+  width: 450px;
+  
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #b6b6b8;
+}
+
+.hero-text button {
+  background-color: #3882F6;
+  padding: 5px 27px;
+  font-weight: bold;
+  color: #F9FAF8;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.section2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.each-image img {
+  width: 160px;
+  height: 170px;
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+}
+
+.section2 h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.each-image p {
+  width: 160px;
+  text-align: center;
 }
