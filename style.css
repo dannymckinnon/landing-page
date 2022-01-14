@@ -7,6 +7,10 @@
 
 body {
   font-family: roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 
 .hero {
@@ -135,7 +139,7 @@ body {
 .section4 {
   background-color: #3882F6;
   margin: 150px 250px;
-  padding: 45px 75px;
+  padding: 60px 70px;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -162,4 +166,11 @@ body {
   font-size: 18px;
   color: #dbdbdb;
   margin-top: 5px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 40px;
 }
