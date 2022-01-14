@@ -14,13 +14,13 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  padding: 25px 300px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
-  margin: 25px 245px 100px;
   flex-grow: 1;
 }
 
@@ -38,25 +38,25 @@ body {
 
 .hero-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-grow: 1;
   padding-bottom: 100px;
 }
 
 .hero-img img {
-  width: 550px;
-  height: 230px;  
+  width: 500px;
 }
 
 .hero-text {
   width: 450px;
-  
+  align-self: center;
 }
 
 .hero-text h1 {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
+  margin-bottom: 10px;
 }
 
 .secondary-text {
@@ -70,14 +70,16 @@ body {
   font-weight: bold;
   color: #F9FAF8;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 7px;
 }
 
 .section2 {
    display: flex;
    flex-direction: column;
-   justify-content: center
+   justify-content: center;
+   padding: 120px 400px;
+   padding-top: 60px;
 }
 
 .img-box {
@@ -95,7 +97,7 @@ body {
 
 .section2 h2 {
   text-align: center;
-  padding: 50px;
+  padding-bottom: 50px;
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
@@ -104,4 +106,6 @@ body {
 .each-image p {
   width: 160px;
   text-align: center;
+  font-size: 18px;
+  color: #8d8d8d;
 }
