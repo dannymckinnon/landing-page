@@ -131,3 +131,35 @@ body {
   margin-right: 50px;
   margin-bottom: -70px
 }
+
+.section4 {
+  background-color: #3882F6;
+  margin: 150px 250px;
+  padding: 45px 75px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section4 h3 {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section4 button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 7px 35px;
+}
+
+.text4 p {
+  font-size: 18px;
+  color: #dbdbdb;
+  margin-top: 5px;
+}
